@@ -20,7 +20,7 @@ public class EmailConsumer {
         EmailModel emailModel = new EmailModel();
         BeanUtils.copyProperties(emailDto, emailModel);
         emailService.sendEmail(emailModel);
-        System.out.println("Email Status: " + emailModel.getStatusEmail().toString());
+//        System.out.println("Email Status: " + emailModel.getStatusEmail().toString());
     }
 
 }
